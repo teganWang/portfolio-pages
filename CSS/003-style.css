@@ -1,0 +1,44 @@
+/* 五倍紅寶石練習題 */
+body{
+    background-color: #19244a;
+}
+.form-area{
+    text-align: center;
+    margin: 5rem auto;
+    padding: 0 5rem;
+}
+.btn{
+    background-color: #4ebfd6;
+    width: 5rem;
+    height: 5rem;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+/* 讓按鈕旁邊的上下鍵消失 */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.content{
+    background-color: #4ebfd6;
+    width: 20rem;
+    height: 4.5rem;
+    padding: 0.5rem 2rem;
+    border: 3px solid #000;
+    border-radius: 20px;
+    font-size: 3rem;
+}
+h1{
+    color: #4ebfd6;
+    font-size: 3rem;
+    text-align: center;
+}
+h2{
+    margin: 2rem;
+    font-size: 2rem;
+    color: #e5e647;
+    text-align: center;
+}
+
