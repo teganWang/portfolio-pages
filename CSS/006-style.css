@@ -1,7 +1,61 @@
-.todo-list-area
-h1
-.add-item-area
-#taskInput
-#addBtn
-.todo-list
-
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 1rem;
+}
+.add-item-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#taskInput{
+    height: 3rem;
+    width: 30rem;
+    font-size: 1.5rem;
+    border: 3px solid #000;
+    border-radius: 10px;
+    color: #5e5c5c;
+    text-align: center;
+    margin-right: 2rem;
+}
+#addBtn{
+    height: 3rem;
+    width: 5rem;
+    font-size: 1.5rem;
+}
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+.item{
+    font-size: 1.5rem;
+    background-color: #fff386;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+}
+.closeBtn{
+    background-color: #fe5757;
+    color: #fff;
+    height: 2rem;
+    width: 3rem;
+    font-size: 1rem;
+    margin: 0.5rem;
+    border: 0;
+    border-radius: 5px;
+}
+.closeBtn:hover{
+    background-color: #ff0000;
+    height: 2.5rem;
+    width: 3.5rem;
+    font-size: 1.2rem;
+}
