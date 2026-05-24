@@ -25,24 +25,3 @@ btnSubtrastion.addEventListener("click",()=>{
 })
 // 這樣既可以在減到負數時提醒使用者，也可以在不是負數時恢復原本文字。
 
-// ChatGPT建議這樣寫，讓使用者用input參與進程式裡
-
-// btnAddition.addEventListener("click", () => {
-//     let value = Number(content.value);
-//     value += 1;
-//     content.value = value;
-
-//     h2.textContent = originalText;
-// });
-
-// btnSubtrastion.addEventListener("click", () => {
-//     let value = Number(content.value);
-
-//     if (value === 0) {
-//         h2.textContent = "不能再減了";
-//         return;
-//     }
-
-//     value -= 1;
-//     content.value = value;
-// });
