@@ -11,10 +11,28 @@
     <!-- 新增css -->
     <link rel="stylesheet" href="CSS/006-style.css"/>
     <!-- 標籤名稱 -->
-    <title></title>
+    <title>006-todo-list</title>
 </head>
 <body>
-    
+    <main class="todo-list-area">
+        <h1>Todo List</h1>
+        <div class="add-item-area">
+            <input type="text" id="taskInput" value="" placeholder="新增待辦事項">
+            <button id="addBtn">新增</button>
+        </div>
+        <section>
+            <ul class="todo-list">
+                <li class="todo-item">
+                    <span class="item">待辦事項1</span>
+                    <button class="closeBtn">清除</button>
+                </li>
+                <li class="todo-item">
+                    <span class="item">待辦事項2</span>
+                    <button class="closeBtn">清除</button>
+                </li>
+            </ul>
+        </section>
+    </main>
     <script src="JavaScript/006-interactive.js"></script>
 </body>
 </html>
