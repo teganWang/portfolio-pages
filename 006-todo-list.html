@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 網頁標籤上的icon -->
-    <link rel="shortcut icon" href="" type="image/x-icon"/>
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"/> -->
     <!--重置css設定 -->
     <link rel="stylesheet" href="CSS/reset.css"/>
     <!-- 新增css -->
@@ -17,19 +17,21 @@
     <main class="todo-list-area">
         <h1>Todo List</h1>
         <div class="add-item-area">
-            <input type="text" id="taskInput" value="" placeholder="新增待辦事項">
-            <button id="addBtn">新增</button>
+            <input type="text" id="addContent" value="" placeholder="請輸入要新增的待辦事項">
+            <button class="add-btn">新增</button>
         </div>
         <section>
             <ul class="todo-list">
-                <li class="todo-item">
+                <!-- <li class="todo-item">
+                    <button class="btn finishBtn">完成</button>
                     <span class="item">待辦事項1</span>
-                    <button class="closeBtn">清除</button>
+                    <button class="btn closeBtn">清除</button>
                 </li>
                 <li class="todo-item">
+                    <button class="btn finishBtn">完成</button>
                     <span class="item">待辦事項2</span>
-                    <button class="closeBtn">清除</button>
-                </li>
+                    <button class="btn closeBtn">清除</button>
+                </li> -->
             </ul>
         </section>
     </main>

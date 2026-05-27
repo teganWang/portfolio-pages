@@ -9,7 +9,7 @@ h1{
     flex-direction: row;
     justify-content: center;
 }
-#taskInput{
+#addContent{
     height: 3rem;
     width: 30rem;
     font-size: 1.5rem;
@@ -19,7 +19,7 @@ h1{
     text-align: center;
     margin-right: 2rem;
 }
-#addBtn{
+.add-btn{
     height: 3rem;
     width: 5rem;
     font-size: 1.5rem;
@@ -37,21 +37,34 @@ h1{
     align-items: center;
     margin: 0.5rem;
 }
-.item{
-    font-size: 1.5rem;
-    background-color: #fff386;
-    padding: 1rem 5rem;
-    border-radius: 10px;
-}
-.closeBtn{
-    background-color: #fe5757;
-    color: #fff;
+.btn{
     height: 2rem;
     width: 3rem;
     font-size: 1rem;
     margin: 0.5rem;
     border: 0;
     border-radius: 5px;
+}
+.finishBtn{
+    background-color: #356a90;
+    color: #fff;
+    width: 4rem;
+}
+.item{
+    font-size: 1.5rem;
+    background-color: #fff386;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+}
+.finished{
+    font-size: 1.5rem;
+    background-color: #9e9971;
+    padding: 1rem 5rem;
+    border-radius: 10px;
+}
+.closeBtn{
+    background-color: #fe5757;
+    color: #fff;
 }
 .closeBtn:hover{
     background-color: #ff0000;
