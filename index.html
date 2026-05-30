@@ -32,7 +32,7 @@
                 <div class="home-content">
                     <span class="home-desc">你好</span>
                     <h1 class="home-title">我是王彤恩!</h1>
-                    <h2 class="home-subtitle">Junior Website Developer</h2>
+                    <h2 class="home-subtitle">Frontend Developer & Product Enthusiast</h2>
                     <a href="#about" class="btn-primary">關於我</a>
                 </div>
                 <div class="home-pic">
@@ -48,13 +48,18 @@
                 <h3 class="section-title">關於我</h3>
                 <div class="about-section">
                     <div class="about-introduce">
-                        畢業於中信金融管理學院的人工智慧學系。目前正朝者前端工程師的方向發展。
-                        具備 HTML、CSS 、 JavaScript基礎能力，
-                        能完成RWD響應式網頁切版與基本互動的網頁版型製作，
-                        目前持續學習Vue。目前已完成個人作品集網站，持續累積前端開發實作經驗。
+                        畢業於中信金融管理學院的人工智慧學系。
+                        具備網頁開發基礎與實作經驗，
+                        在接觸網頁開發的過程中，我逐漸發現自己除了喜歡功能實作外，
+                        也對產品如何被使用、操作流程是否順暢，以及功能是否符合需求產生高度興趣。
+                        透過個人專案持續練習需求拆解、功能規劃與問題排查。
+                        除了功能開發外，也關注產品體驗、使用者操作流程與功能驗收，
+                        同時也從過去的工作經驗中培養了文件整理、資料核對、溝通協調與進度追蹤能力。
+                        希望持續累積技術與產品相關能力，從相關職位開始累積實務經驗，
+                        持續提升產品思維與跨部門協作能力。
                     </div>
                     <div class="skill">
-                        <span class="about-subtitle">我擅長的:</span>
+                        <span class="about-subtitle">技術能力:</span>
                         <ul class="skill-list">
                             <li>HTML</li>
                             <li>CSS</li>
@@ -62,6 +67,25 @@
                             <li>RWD</li>
                             <li>Figma</li>
                             <li>畫畫</li>
+                        </ul>
+                        <span class="about-subtitle">產品與測試能力:</span>
+                        <ul class="skill-list">
+                            <li>需求拆解</li>
+                            <li>功能驗收</li>
+                            <li>問題分析與排查</li>
+                            <li>操作流程設計</li>
+                            <li>使用者體驗思考</li>
+                            <li>測試案例設計</li>
+                            <li>品質驗證</li>
+                        </ul>
+                        <span class="about-subtitle">協作能力:</span>
+                        <ul class="skill-list">
+                            <li>文件整理</li>
+                            <li>資訊統整</li>
+                            <li>問題溝通</li>
+                            <li>進度追蹤</li>
+                            <li>團隊合作</li>
+                            <li>細節檢查</li>
                         </ul>
                     </div>
                 </div>
@@ -74,21 +98,6 @@
                     <!-- project -->
                     <article class="project">
                         <div class="project-image">
-                            <a href="003-addition-and-subtraction-calculator.html">
-                                <img src="圖片/000-first.png" alt="作品1">
-                            </a>
-                        </div>
-                        <div class="project-introduce">
-                            <h5 class="project-title">購物車數量加減元件</h5>
-                            <p class="project-content">
-                                模擬購物車數量加減的功能，並在數字要變成負數的時候，出現提醒使用者的文字。
-                            </p>
-                            <a href="003-shopping-cart-counter.html" class="btn-primary btn-project">Demo</a>
-                        </div>
-                        <div class="float"></div>
-                    </article>
-                    <article class="project">
-                        <div class="project-image">
                             <a href="006-todo-list.html">
                                 <img src="圖片/TodoList-0527.png" alt="作品2">
                             </a>
@@ -96,17 +105,73 @@
                         <div class="project-introduce ">
                             <h5 class="project-title">Todo List</h5>
                             <p class="project-content">
-                                目前功能：<br>
-                                - 新增 Todo <br>
-                                - 刪除 Todo <br>
-                                - 完成狀態切換 <br>
-                                - Enter 快速新增 <br>
+                                透過開發 Todo List 練習使用 JavaScript 建立互動式網頁功能，
+                                並從使用者角度思考待辦事項管理流程，驗證功能是否符合預期需求，
+                                同時培養問題分析、功能驗收與資料同步的實作能力。<br>
+                                功能特色:<br>
+                                ．待辦事項新增與刪除<br>
+                                ．待辦事項完成狀態切換<br>
+                                ．資料與畫面同步更新<br>
+                                ．防止新增空白代辦事項<br>
+                                技術實作:<br>
+                                ．使用 JavaScript 操作 DOM 元素<br>
+                                ．使用事件監聽處理使用者互動 <br>
+                                ．使用 Event Delegation 管理動態產生的按鈕 <br>
+                                ．練習資料狀態與畫面同步邏輯 <br>
+                                ．將功能拆分為獨立函式提升可維護性<br>
+                                產品與使用者體驗思考:<br>
+                                ．規劃待辦事項新增、完成與刪除流程<br>
+                                ．設計輸入驗證機制避免建立無效資料 <br>
+                                ．驗證功能是否符合預期操作需求 <br>
+                                <!-- ．思考不同操作情境下的使用體驗 <br> -->
+                                測試與驗證:<br>
+                                ．點擊新增按鈕可正確新增待辦事項<br>
+                                ．按下Enterr鍵可快速新增待辦事項<br>
+                                ．點擊刪除按鈕可正確刪除待辦事項<br>
+                                ．輸入框空白時不建立待辦事項<br>
+                                ．點擊完成按鈕可正確接換狀態並更新樣式<br>
+                                ．確認資料與畫面顯示的內容保持一致<br>
                                 接下來預計：<br>
-                                - localStorage <br>
-                                - 篩選功能<br>
-                                - Dark Mode <br>
+                                ．Local Storage 資料持久化 <br>
+                                ．代辦事項篩選功能<br>
+                                ．Dark Mode 深色模式<br>
                             </p>
                             <a href="006-todo-list.html" class="btn-primary btn-project">Demo</a>
+                        </div>
+                        <div class="float"></div>
+                    </article>
+                    <article class="project">
+                        <div class="project-image">
+                            <a href="003-addition-and-subtraction-calculator.html">
+                                <img src="圖片/000-first.png" alt="作品1">
+                            </a>
+                        </div>
+                        <div class="project-introduce">
+                            <h5 class="project-title">購物車數量加減元件</h5>
+                            <p class="project-content">
+                                模擬電商網站中的商品數量調整功能，練習使用 JavaScript 實作使用者互動與資料同步邏輯。<br>
+                                功能特色:<br>
+                                ．商品數量增加與減少<br>
+                                ．即時更新畫面顯示結果<br>
+                                ．防止商品數量低於 0<br>
+                                ．支援長按連續加減操作（開發中）<br>
+                                技術實作:<br>
+                                ．使用 JavaScript 操作 DOM 元素<br>
+                                ．使用事件監聽處理使用者互動<br>
+                                ．練習資料狀態與畫面同步更新<br>
+                                ．將功能拆分為獨立函式提升可維護性<br>
+                                產品與使用者體驗思考:<br>
+                                ．考量使用者快速調整商品數量的需求<br>
+                                ．設計數量下限機制避免產生無效資料<br>
+                                ．驗證不同操作情境下功能是否正常運作<br>
+                                測試與驗證:<br>
+                                ．點擊增加按鈕可正確增加數量<br>
+                                ．點擊減少按鈕可正確減少數量<br>
+                                ．數量為 0 時不可繼續減少<br>
+                                <!-- - 連續快速點擊功能正常運作 -->
+                                <!-- - 長按操作時數量持續更新且畫面同步顯示 -->
+                            </p>
+                            <a href="003-shopping-cart-counter.html" class="btn-primary btn-project">Demo</a>
                         </div>
                         <div class="float"></div>
                     </article>
@@ -120,11 +185,45 @@
                             <h5 class="project-title">作品名稱</h5>
                             <p class="project-content">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deleniti vel sunt inventore voluptates modi perspiciatis facilis dolor eaque cumque itaque fuga ipsam, eum quo asperiores et officia. Expedita, eum!
+                                <!-- 功能特色:<br>
+                                - <br>
+                                技術實作:<br>
+                                - <br>
+                                產品與使用者體驗思考:<br>
+                                - <br>
+                                測試與驗證:<br>
+                                - <br>
+                                接下來預計：<br>
+                                -  <br> -->
                             </p>
                             <a href="#" class="btn-primary btn-project">Demo</a>
                         </div>
                         <div class="float"></div>
                     </article>
+                    <!-- <article class="project">
+                        <div class="project-image">
+                            <a href="">
+                                <img src="圖片/作品1.JPG" alt="作品1">
+                            </a>
+                        </div>
+                        <div class="project-introduce">
+                            <h5 class="project-title">作品名稱</h5>
+                            <p class="project-content">
+                                功能特色:<br>
+                                - <br>
+                                技術實作:<br>
+                                - <br>
+                                產品與使用者體驗思考:<br>
+                                - <br>
+                                測試與驗證:<br>
+                                - <br>
+                                接下來預計：<br>
+                                -  <br>
+                            </p>
+                            <a href="#" class="btn-primary btn-project">Demo</a>
+                        </div>
+                        <div class="float"></div>
+                    </article> -->
                 </div>
             </div>
         </section>

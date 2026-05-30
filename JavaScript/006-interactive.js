@@ -17,7 +17,9 @@ const renderTodos = () => {
 
 // ? : 為三源運算子，表示"條件?true:false"
 const createTaskItem = () => {
-    const task = taskInput.value
+    const task = taskInput.value.trim()
+    if (!task) return
+    // 如果為空字串回傳
     const dataId = Date.now()
     const todoItem = `                <li class="todo-item" data-id="${dataId}">
                     <button class="btn finishBtn">完成</button>
@@ -61,7 +63,7 @@ addBtn.addEventListener("click", () => {
     createTaskItem()
 })
 
-taskInput.addEventListener("keypress", (e) =>{
+taskInput.addEventListener("keydown", (e) =>{
     if (e.key === "Enter") {
         createTaskItem()
     }
