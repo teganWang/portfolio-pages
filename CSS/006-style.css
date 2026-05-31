@@ -20,9 +20,18 @@ h1{
     margin-right: 2rem;
 }
 .add-btn{
+    border-color: #d3d3d3;
     height: 3rem;
     width: 5rem;
+    border: 0;
+    border-radius: 5px;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: #3b3b3b;
+    color: #fff;
+    transition: all 0.2s;
 }
 .todo-list{
     display: flex;
@@ -44,11 +53,19 @@ h1{
     margin: 0.5rem;
     border: 0;
     border-radius: 5px;
+    cursor: pointer;
 }
 .finishBtn{
     background-color: #356a90;
     color: #fff;
     width: 4rem;
+}
+.finishBtn:hover{
+    background-color: #014779;
+    height: 2.5rem;
+    width: 4.5rem;
+    font-size: 1.2rem;
+    transition: all 0.2s;
 }
 .item{
     font-size: 1.5rem;
@@ -62,6 +79,18 @@ h1{
     padding: 1rem 5rem;
     border-radius: 10px;
 }
+.editBtn{
+    background-color: #d3d3d3;
+    color: #000;
+}
+.editBtn:hover{
+    background-color: #3b3b3b;
+    color: #fff;
+    height: 2.5rem;
+    width: 3.5rem;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
 .closeBtn{
     background-color: #fe5757;
     color: #fff;
@@ -71,4 +100,5 @@ h1{
     height: 2.5rem;
     width: 3.5rem;
     font-size: 1.2rem;
+    transition: all 0.2s;
 }
