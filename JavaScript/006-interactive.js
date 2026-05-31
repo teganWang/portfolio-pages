@@ -5,9 +5,6 @@ const finishBtn = document.querySelector(".finishBtn")
 const editBtn = document.querySelector(".editBtn")
 let todos =[]
 
-
-//先決定編輯功能怎麼操作
-
 // localStorage只能儲存字串，value是覆蓋不是加上。JSON.parse()可以幫忙將字串轉回陣列/物件
 const saveTodos = () => {
     localStorage.setItem(
